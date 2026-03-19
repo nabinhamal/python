@@ -1,5 +1,4 @@
-# Python Loops (for and while)
-
+"""Module providing a function printing python version."""
 # 1. For Loop
 fruits = ["apple", "banana", "cherry"]
 print("--- For Loop over List ---")
@@ -17,11 +16,11 @@ for i in range(1, 11, 2):
     print(i)
 
 # 3. While Loop
-count = 0
+COUNT = 0
 print("\n--- While Loop ---")
-while count < 3:
-    print(f"Count: {count}")
-    count += 1
+while COUNT < 3:
+    print(f"Count: {COUNT}")
+    COUNT += 1
 
 # 4. Break and Continue
 print("\n--- Break and Continue ---")
